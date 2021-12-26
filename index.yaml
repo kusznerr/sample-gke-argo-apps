@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   argo-cd:
   - apiVersion: v2
+    created: "2021-12-26T23:37:53.880127873Z"
+    dependencies:
+    - name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 3.13.0
+    digest: 0a3c4db11220658113965f1ad34e35eb3562b10d1b3331b5a20ed5a4fc20d1e1
+    name: argo-cd
+    urls:
+    - https://github.com/kusznerr/wabbit-rk5-gke-argo-apps/releases/download/argo-cd-1.0.2/argo-cd-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
     created: "2021-12-26T23:32:53.114507564Z"
     dependencies:
     - name: argo-cd
@@ -31,4 +42,4 @@ entries:
     urls:
     - https://github.com/kusznerr/wabbit-rk5-gke-argo-apps/releases/download/root-1.0.0/root-1.0.0.tgz
     version: 1.0.0
-generated: "2021-12-26T23:32:53.114515564Z"
+generated: "2021-12-26T23:37:53.880152874Z"
