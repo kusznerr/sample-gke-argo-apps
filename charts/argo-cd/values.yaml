@@ -8,8 +8,10 @@ argo-cd:
   server:
     extraArgs:
       - --insecure
+    service:
+      type: LoadBalancer
     ingress:
-      enabled: true  
+      enabled: true      
     config:
       repositories: |
         - type: helm
