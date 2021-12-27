@@ -42,4 +42,12 @@ entries:
     urls:
     - https://github.com/kusznerr/wabbit-rk5-gke-argo-apps/releases/download/root-1.0.0/root-1.0.0.tgz
     version: 1.0.0
-generated: "2021-12-26T23:37:53.880152874Z"
+  root-app:
+  - apiVersion: v2
+    created: "2021-12-27T11:41:03.114453792Z"
+    digest: ce41b64c018345d0234d198c481ba89ac066ffdd8556c3fb677f5beaa39b47b9
+    name: root-app
+    urls:
+    - https://github.com/kusznerr/wabbit-rk5-gke-argo-apps/releases/download/root-app-1.0.1/root-app-1.0.1.tgz
+    version: 1.0.1
+generated: "2021-12-27T11:41:03.114469092Z"
