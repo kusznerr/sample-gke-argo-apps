@@ -9,7 +9,7 @@ argo-cd:
     extraArgs:
       - --insecure
     service:
-      type: LoadBalancer
+      type: NodePort
     ingress:
       enabled: true      
     config:
@@ -20,4 +20,3 @@ argo-cd:
         - type: helm
           name: argo-cd
           url: https://argoproj.github.io/argo-helm
-          
